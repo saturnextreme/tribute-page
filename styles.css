@@ -1,0 +1,52 @@
+*, html {
+    margin:0;
+    padding:0;
+}
+#m_head {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 100px;
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  border-bottom: 10px solid rgba(245, 221, 33, 0.8);
+}
+.border {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 5% auto;
+  width: 30%;
+  border: 5px solid black;
+  border-radius: 100%;
+}
+.data {
+  display: flex;
+  flex-direction: row;
+}
+h2 {
+  font-family: cursive;
+  padding: 2%;
+  font-size: 50px;
+  text-decoration: underline;
+}
+p {
+  font-family: cursive;
+  padding: 2%;
+  font-size: 25px;
+}
+img {
+  padding: 0.5% 2%;
+  width: 800px;
+  height: 400px;
+}
+footer {
+  border-top: 10px solid rgba(162, 203, 115, 1);
+  text-align: center;
+  padding: 2%;
+  margin: 0;
+  background-color: black;
+  color: white;
+}
